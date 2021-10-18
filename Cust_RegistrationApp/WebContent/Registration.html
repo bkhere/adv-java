@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<table style="margin: auto;">
+	<tr>
+	<td>
+	<fieldset>
+	<legend>Register Here!!!</legend>
+	
+	<form method="post" action="registration">
+	<div>
+	<label for="name">Enter your name:</label>
+	<br>
+	<input type="text" name="name" id="name" style="width:100%">
+	</div><br><br>
+	<div>
+	<label for="city">Enter your city:</label>
+	<br>
+	<input type="text" name="city" id="city" style="width:100%">
+	</div><br><br>
+	<div>
+	<label for="MALE">Choose your gender:</label>
+	<br><br>
+	<div  style="display:inline-flex;">
+	<label for="MALE">MALE</label><input type="radio" id="MALE" name="gender" value="male"> <label for="FEMALE">FEMALE</label><input type="radio" name="gender" id="FEMALE" value="female">
+	</div>
+	</div><br><br>
+	<div>
+	<br>
+	<label for="Subscriptions">Choose your subscription type: </label>
+	<select name="Subscriptions" id="Subscriptions">
+	<option value="weekly">WEEKLY</option>
+	<option value="monthly">MONTHLY</option>
+	<option value="quarterly">QUARTERLY</option>
+	<option value="anually">ANUALLY</option>
+	</select>
+	</div><br><br>
+	<div><input type="submit"> <input type="reset"></div>
+	</form>
+	</fieldset>
+	</td>
+	</tr>
+	</table>
+	
+</body>
+</html>
